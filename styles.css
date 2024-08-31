@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0044cc; /* Blue background */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 0.5rem;
+    text-decoration: none;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+
+nav a:hover {
+    background-color: #0033aa; /* Darker blue on hover */
+}
+
+main {
+    padding: 1rem;
+}
+
+footer {
+    background-color: #0044cc;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    nav {
+        display: block;
+        text-align: center;
+    }
+    
+    nav a {
+        display: block;
+        margin: 0.5rem 0;
+    }
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+input, textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #0044cc;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0033aa;
+}
+
+/* Existing styles */
+
+video {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 1rem auto;
+}
+
+.subjects {
+    margin-bottom: 2rem;
+}
+
+.subjects ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.subjects li {
+    margin: 0.5rem 0;
+}
+
+.subjects a {
+    color: #0044cc;
+    text-decoration: none;
+    padding: 0.5rem;
+    border: 1px solid #0044cc;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.subjects a:hover {
+    background-color: #0033aa;
+    color: white;
+}
+
+/* Add responsive design if needed */
